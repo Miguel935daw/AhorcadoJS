@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+
+    height: 100%;
+    background: url(./imagenes/back.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#teclado {
+    margin: auto;
+    align-self: center;
+    width: fit-content;
+}
+
+#ahorcado {
+    width: 20vh;
+}
+
+.letra {
+    margin: 5px;
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: green;
+    color: white;
+    font-size: 2rem;
+}
+
+#repetir {
+    border: none;
+    padding: 1em;
+    border-radius: 50px;
+    font-size: 26px;
+    background-color: #fee216;
+    margin: auto;
+    display: block;
+    width: fit-content;
+}
+
+#repetir:disabled {
+    display: none;
+}
+
+.invisible {
+    display: none;
+}
+
+#juego {
+    text-align: center;
+    align-self: center;
+    margin: 100px auto;
+}
+
+.nivel {
+    margin: 1em;
+    padding: 1em;
+    display: block;
+    justify-self: center;
+    border: none;
+    border-radius: 50px;
+    background-color: #fee216;
+    color: #000;
+    font-size: 30px;
+    width: 5em;
+    height: 5em;
+}
+
+#niveles {
+    margin: 20em auto;
+    width: 450px;
+    height: fit-content;
+    align-items: center;
+    justify-content: center;
+}
+
+span{
+    text-align: justify;
+    border-radius: 5px;
+    background-color: rgb(0, 110, 84);
+    color: white;
+    font-size: 20px;
+    width: 10em;
+    height: fit-content;
+    padding:1em;
+}
+
+.background{
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 80%;
+    height: auto;
+    background: rgba(255, 255, 255, .3);
+    border-radius: 15%;
+}
+
+.titulo{
+    font-size: 5rem;
+    color: rgb(8, 254, 4);
+}
+
+#final{
+    color: red;
+    font-size: 50px;
+    font-weight: bold;
+}

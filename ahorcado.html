@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=<device-width>, initial-scale=1.0" />
+  <title>Juego del Ahorcado</title>
+  <link rel="stylesheet" type="text/css" href="ahorcado.css" />
+</head>
+
+<body>
+  <div id="niveles">
+    <div style="display: flex;">
+      <button class="nivel" id="facil">Fácil</button>
+      <span id="descripcion1" class="invisible">En esta dificultad las palabras que tendrás que adivinar tendrán una
+        longitud igual o menor
+        de 4 letras</span>
+    </div>
+    <div style="display: flex;">
+      <button class="nivel" id="normal">Normal</button>
+      <span id="descripcion2" class="invisible">En esta dificultad las palabras que tendrás que adivinar tendrán una
+        longitud entre 5 y 6
+        letras</span>
+    </div>
+    <div style="display: flex;">
+      <button class="nivel" id="dificil">Dificil</button>
+      <span id="descripcion3" class="invisible">En esta dificultad las palabras que tendrás que adivinar tendrán una
+        longitud de mínimo 7
+        letras</span>
+    </div>
+  </div>
+  <div class="background">
+    <div id="juego" class="invisible">
+      <h1 id="final"></h1>
+      <h2 class="titulo">Juego del Ahorcado</h2>
+
+      <div class="flex-container">
+        <img id="ahorcado" src="imagenes/ahorcado6.png" />
+        <h2 id="resultado"></h2>
+      </div>
+      <div class="flex">
+        <div id="teclado" class="invisible"></div>
+      </div>
+
+    </div>
+    <button id="repetir" disabled="true">Jugar Otra Vez</button>
+  </div>
+</body>
+<script type="module" src="ahorcado.js"></script>
+
+</html>
